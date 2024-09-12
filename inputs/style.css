@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+html, 
+body {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  box-shadow: 1px 1px 15px #0000006e;
+  background-color: #C8D5DD;
+
+  .logo {
+    color: #646B6F;
+    font-family: 'Oswald', sans-serif;
+    padding: .5rem 2rem;
+    border: 4px solid #838C91;
+  }
+}
+
+main {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .card {
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      gap: .5rem
+    }
+
+    li {
+      width: 100%;
+      font-weight: 500;
+      font-size: 14px;
+      font-family: 'Poppins';
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+}
